@@ -143,8 +143,8 @@ const Hero = () => {
                             src="/image.png"
                             width={280}
                             height={350}
-                        //      layout="fill"
-                        objectFit="cover"
+                            //      layout="fill"
+                            objectFit="cover"
                         />
                         <span className={styles.info}>
                             <p className={styles.text}>martin</p>
@@ -159,18 +159,19 @@ const Hero = () => {
                 </div>
             </div>
 
-          {/* Display fetched data */}
-{data && data.map(course => (
-    <div key={course.id} className={styles.display}>
-        {course.media && course.media.image && course.media.image.small ? (
-            <img src={course.media.image.small} alt="Course Image" />
-        ) : (
-            <p>Error: Image URL not found</p>
-        )}
-    </div>
-))}
+            <h2>Explore inspiring designs</h2>
+            {/* Display fetched data */}
+            {data && data.map(course => (
+                <div key={course.id} className={styles.display}>
+                    {course.media && course.media.image && course.media.image.small ? (
+                        <img src={course.media.image.small} alt="Course Image" />
+                    ) : (
+                        <p>Error: Image URL not found</p>
+                    )}
+                </div>
+            ))}
         </div >
-    
+
 
     );
 };
