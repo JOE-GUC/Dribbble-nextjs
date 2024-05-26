@@ -57,9 +57,8 @@ export default function Page() {
                     className={styles.input}
                     onChange={(e) => setPassword(e.target.value)}
                 />
-                <button className={styles.button} onClick={() => signIn("google")}>
-                    Sign in
-                </button>            </form>
+                <button className={styles.button}>Sign Up</button>
+            </form>
             <Link href="/login">Already have an account ? Login</Link>
         </div>
     )
