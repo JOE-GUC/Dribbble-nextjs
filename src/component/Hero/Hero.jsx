@@ -29,7 +29,7 @@ const Hero = () => {
                 <div className={styles.cords}>
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -45,7 +45,7 @@ const Hero = () => {
 
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -59,7 +59,7 @@ const Hero = () => {
                     </Link>
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -75,7 +75,7 @@ const Hero = () => {
                     <Link href="" className={styles.card}>
                         <Image
                             className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350}
                         //      layout="fill"
@@ -93,7 +93,7 @@ const Hero = () => {
                     </Link>
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -108,7 +108,7 @@ const Hero = () => {
                     </Link>
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -123,7 +123,7 @@ const Hero = () => {
                     </Link>
                     <Link href="" className={styles.card}>
                         <Image className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350} />
                         <span className={styles.info}>
@@ -138,7 +138,7 @@ const Hero = () => {
                     <Link href="" className={styles.card}>
                         <Image
                             className={styles.img}
-                            src="/image.png"
+                            src="/caurosel.png"
                             width={280}
                             height={350}
                             //      layout="fill"
