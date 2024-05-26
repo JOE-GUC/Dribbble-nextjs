@@ -72,3 +72,112 @@
     height: 300px;
     width: 350px;
 }
+
+
+.con{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.cords{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    animation: animation 10s linear infinite alternate;
+}
+
+@keyframes animation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    margin: 12px 8px;
+}
+
+.info{
+    display: flex;
+    transform: translate(0px,-100px);
+    flex-direction: column;
+    justify-content: left;
+    
+    padding: 12px 0px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 6px;
+    
+}
+
+.text{
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6px;
+    margin: 4px 0px;
+    margin-left: 8px;
+}
+
+.git{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6px;
+    margin-left: 8px;
+}
+
+.img{
+    border-radius: 12px;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.joe{
+    border: 1px solid black;
+    color: black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6px;
+    margin: 4px 0px;
+    margin-left: 8px;
+}
+
+.joecolor{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6px;
+    margin-left: 8px;
+}
