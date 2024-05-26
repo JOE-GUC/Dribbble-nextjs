@@ -162,7 +162,7 @@ const Hero = () => {
             {data && data.map(course => (
                 <div key={course.id} className={styles.display}>
                     {course.media && course.media.image && course.media.image.small ? (
-                        <img src={course.media.image.small} alt="Course Image" />
+                        <img src={course.media.image.small} alt="dribbble Image" />
                     ) : (
                         <p>Error: Image URL not found</p>
                     )}
