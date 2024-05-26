@@ -33,11 +33,11 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.text}>bless</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.joe + " " + styles.link}> Link</p>
+                                <p className={styles.joe + " " + styles.link}></p>
                                 <p className={styles.joecolor}>
-                                    Git Hub
+                                
                                 </p>
                             </span>
                         </span>
@@ -49,11 +49,10 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.joe}>joseph</p>
+                            <p className={styles.joe}></p>
                             <span className={styles.links}>
                                 <p className={styles.joe + " " + styles.link}> Link</p>
                                 <p className={styles.joecolor}>
-                                    Git Hub
                                 </p>
                             </span>
                         </span>
@@ -64,11 +63,11 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.text}>edward</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.text + " " + styles.link}> Link</p>
+                                <p className={styles.text + " " + styles.link}></p>
                                 <p className={styles.git}>
-                                    Git Hub
+                                    
                                 </p>
                             </span>
                         </span>
@@ -83,11 +82,11 @@ const Hero = () => {
                         // objectFit="cover"
                         />
                         <span className={styles.info}>
-                            <p className={styles.text}>martin</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.text + " " + styles.link}> Link</p>
+                                <p className={styles.text + " " + styles.link}></p>
                                 <p className={styles.git}>
-                                    Git Hub
+                                    
                                 </p>
                             </span>
                         </span>
@@ -98,11 +97,11 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.text}>edward</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.text + " " + styles.link}> Link</p>
+                                <p className={styles.text + " " + styles.link}></p>
                                 <p className={styles.git}>
-                                    Git Hub
+                            
                                 </p>
                             </span>
                         </span>
@@ -113,11 +112,11 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.joe}>joseph</p>
+                            <p className={styles.joe}></p>
                             <span className={styles.links}>
-                                <p className={styles.joe + " " + styles.link}> Link</p>
+                                <p className={styles.joe + " " + styles.link}></p>
                                 <p className={styles.joecolor}>
-                                    Git Hub
+                                
                                 </p>
                             </span>
                         </span>
@@ -128,11 +127,10 @@ const Hero = () => {
                             width={280}
                             height={350} />
                         <span className={styles.info}>
-                            <p className={styles.text}>bless</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.joe + " " + styles.link}> Link</p>
+                                <p className={styles.joe + " " + styles.link}></p>
                                 <p className={styles.joecolor}>
-                                    Git Hub
                                 </p>
                             </span>
                         </span>
@@ -147,11 +145,11 @@ const Hero = () => {
                             objectFit="cover"
                         />
                         <span className={styles.info}>
-                            <p className={styles.text}>martin</p>
+                            <p className={styles.text}></p>
                             <span className={styles.links}>
-                                <p className={styles.text + " " + styles.link}> Link</p>
+                                <p className={styles.text + " " + styles.link}> </p>
                                 <p className={styles.git}>
-                                    Git Hub
+                                     
                                 </p>
                             </span>
                         </span>

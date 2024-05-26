@@ -18,11 +18,6 @@ const Navbar = () => {
     <>
       <div className={styles.con}>
         <img style={{ marginLeft: '20px', height: '85px' }} src="/dribbble-removebg-preview.png" alt="" />
-        <p>Find designers</p>
-        <p>Inspiration</p>
-        <p>Courses</p>
-        <p>Jobs</p>
-        <p>Go Pro</p>
 
         <div className={styles.linksCon}>
           <input type="search" name="search" id="" placeholder='Search' />
